@@ -1,0 +1,14 @@
+{
+  "name": "avena-ticket-bot",
+  "version": "2.0.0",
+  "description": "Avena Roleplay Discord Ticket Bot",
+  "main": "main.js",
+  "scripts": {
+    "start":  "node main.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv":     "^16.4.5"
+  }
+}
